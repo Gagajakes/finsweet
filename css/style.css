@@ -67,7 +67,7 @@ body{
 }
 
 #hero-section .image-section {
-    background-image: url(/img/mechanic.png);
+    background-image: url(./img/mechanic.png);
     background-size: cover;
     background-position: center;
     min-height: 68vh;
