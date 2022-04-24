@@ -67,7 +67,7 @@ body{
 }
 
 #hero-section .image-section {
-    background-image: url(./img/mechanic.png);
+    background-image: url("/img/mechanic.png");
     background-size: cover;
     background-position: center;
     min-height: 68vh;
@@ -299,14 +299,14 @@ input:focus{
     padding-top: 10%;
 }
 .contact-background{
-    background-image: url(/img/whitecar.jpg);
+    background-image: url("/img/whitecar.jpg");
     background-size: cover;
     background-position: center;
     width: 50%;
     height: 40vh;
 }
 .contact-background2{
-    background-image: url(/img/car\ charger.jpg);
+    background-image: url("/img/car\ charger.jpg");
     background-size: cover;
     background-position: center;
     width: 50%;
