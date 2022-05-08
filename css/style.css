@@ -363,6 +363,7 @@ input:focus{
 
 #brands{
     padding-bottom: 40px;
+    background-color: whitesmoke;
 }
 
 .branding h2{
@@ -373,4 +374,377 @@ input:focus{
 }
 .brand{
     width: 75%;
+}
+
+#review{
+    padding-top: 10%;
+    padding-bottom: 50px;
+
+}
+
+
+.review_coment h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.johnathan{
+    background: white;
+    padding: 40px;
+    display: flex;
+    width: 80%;
+}
+
+.johnathan .jona{
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.johna h5 h6 p{
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.smithhy{
+    background: white;
+    padding: 40px;
+    display: flex;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.smitthy .johnson{
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.smith{
+    margin-right: 20px;
+    padding-left: 30px;
+}
+
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.arrow span{
+    background-color: white;
+    border-radius: 50px;
+}
+.arrow span:hover{
+    color: white;
+    background-color: black;
+}
+/* ****** FAQ *****************/
+
+#FAQ{
+    min-height: 60vh;
+    padding-bottom: 40px;
+
+}
+.faq h1{
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.contents{
+    background-color: white;
+    display: flex;
+    width: 896px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.ques{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.ques h3{
+    font-size: 24px;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.ques p{
+    font-size: 18px;
+}
+
+.icon{
+    padding-bottom: 60px;
+}
+
+#working{
+    height: 70vh;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.bgblack{
+    background-color: #1E1B1B; 
+}
+
+.footermain{
+    background-color: black;
+    background: #000;
+}
+.left{
+    width: 50%;
+}
+
+.left h1{
+    font-size: 48px;
+    color: white;
+    padding-top: 30%;
+}
+
+.workicon{
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.right{
+    width: 60%;
+    padding-top: 13%;
+}
+
+.help{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.help h3{
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+}
+.help p{
+    font-size: 19px;
+    color: white;
+    opacity: 60%;
+}
+
+.address{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.address h3{
+    font-size: 24px;
+    color: white;
+    padding-top: 10px; 
+}
+.address p{
+    font-size: 19px;
+    color: white;
+    opacity: 60%;
+}
+
+.footermain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+
+.right-sec {
+    display: flex;
+    align-items: center;
+}
+
+.right-sec ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assist {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-sec ul li {
+    margin-right: 20px;
+}
+
+.right-sec ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right-sec .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assist .inner-sect p {
+    margin-right: 10px;
+    color: white;
+}
+
+/* *********************services stylying******************* */
+
+
+#hero .text-section{
+    width: 60%;
+    background-color: black;
+    justify-content: center; 
+} 
+
+#hero .image-section {
+    width: 40%;
+}
+
+#hero, #quote-section {
+    padding: 80px 0;
+}
+
+#hero .image-section {
+    background-image:  url(../img/services1.jpg);
+    /* background-image: url("../../img/mechanic.png"); */
+    background-size: cover;
+    background-position: cover;
+    min-height: 68vh;
+}
+
+#hero .text-section h1{
+    padding-top: 70px;
+    padding-left: 30px;
+    color: white;
+    font-size: 64px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+#hero .text-section p{
+    color: white;
+    margin-top: 10
+    px;
+    font-size: 18px;
+    padding: 30px 40px 0 30px;
+}
+
+#hero .btn{
+    padding-left: 30px;
+}
+
+.bglggrey{
+    background-color: #F5F5F5;
+}
+
+#diagnostics{
+    padding-top: 40px;
+    height: 80vh;
+}
+#diagnostics .img-sect{
+    background-color: white;
+    width: 60%;
+}
+
+.img-sect .img{
+    /* margin-top: 20%; */
+    padding: 50px 30px 20px 40px;
+}
+
+.img-sect {
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+#diagnostics .diagnois{
+    width: 40%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+.diagnois .box1{
+    padding-top: 40px;
+    gap: 80px;
+} 
+.text h1{
+    font-size: 48px;
+    padding: 20px 30px 20px 40px;
+}
+.text p{
+    font-size: 24px;
+    padding: 20px 30px 20px 40px;
+}
+
+.diagnois {
+    margin-top: 15%;
+}
+
+.lin{
+    /* margin: auto; */
+    width: 65%;
+    justify-content: flex-start;
+    padding: 20px 30px 50px 40px;
+}
+.lin a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.lin a:hover{
+    color: #FF6433;
+}
+
+.hdtxt h5{
+    font-size: 48px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.img22{
+    gap: 2px;
+}
+.img1{
+    padding-right: 0.5px;
+    height: 15vh;
+}
+
+.img2{
+    padding-left: 25px;
+}
+
+
+#last-section{
+    min-height: 60vh;
+    margin-bottom: 50px;
+}
+.img{
+    gap: 20px;
+}
+
+.text1{
+    margin: auto;
+}
+.text1 h5{
+    font-size: 35px;
+    padding: 20px 30px 20px 40px;
+}
+.text1 p{
+    font-size: 17px;
+    padding: 20px 30px 20px 40px;
+}
+
+.btn1{
+  padding-left: 30px;
 }
