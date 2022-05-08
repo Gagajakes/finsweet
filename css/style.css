@@ -763,9 +763,10 @@ input:focus{
         display: block;
     }
 
-    h1, h2, {
+    h1, h2{
         font-size: 40px !important;
     }
+
     .left h1{
         font-size: 25px;
     }
@@ -785,6 +786,94 @@ input:focus{
     .footermain {
         display: block;
     }
+
+    
+    .left{
+        margin-inline: auto;
+    }
+
+    .brand{
+        width: 100%;
+    }
+
+    #hero {
+        width: 100%;
+    }
+
+    #hero .image-section{
+        width: 100%;
+    }
+    #hero .text-section{
+        width: 100%;
+    }
+
+
+    .img1234{
+        width: 100%;
+    }
+
+    .text h1{
+        padding: 18px;
+        font-size: 30px;
+        margin-inline: auto;
+    }
+
+    .diagnois .box1{
+        margin-inline: auto;
+    }
+
+    .right-sec{
+        display: none;
+    }
+    .number{
+        margin-inline: auto;
+        padding-top: 30px;
+    }
+    .line{
+        display: none;
+    }
+    .contact-background{
+        display: none;
+    }
+
+    .contact-background2{
+        display: none;
+    }
+    #quote-section .left-section .image-box img {
+        margin-inline: auto;
+    }
+
+    #diagnostics {
+        width: 100%;
+    }
+
+   
+    
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    h1, h2{
+        font-size: 40px;
+    }
+
+    .left h1{
+        font-size: 35px;
+    }
+
+    #hero-section .text-section{
+        width: 100%;
+    } 
+    
+    #hero-section .image-section {
+        width: 100%;
+    }
+
+    .contents {
+        width: 100%;
+    }
+
 
     
     .left{
@@ -837,5 +926,4 @@ input:focus{
     #quote-section .left-section .image-box img {
         margin-inline: auto;
     }
-    
 }
