@@ -489,7 +489,7 @@ input:focus{
 }
 
 #working{
-    height: 70vh;
+    min-height: 70vh;
     padding-top: 30px;
     padding-bottom: 10px;
     width: 100%;
@@ -676,6 +676,7 @@ input:focus{
 .diagnois .box1{
     padding-top: 40px;
     gap: 80px;
+    justify-content: center;
 } 
 .text h1{
     font-size: 48px;
@@ -747,4 +748,94 @@ input:focus{
 
 .btn1{
   padding-left: 30px;
+}
+
+#diagnostics .img1234{
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .right-section {
+        display: none;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    h1, h2, {
+        font-size: 40px !important;
+    }
+    .left h1{
+        font-size: 25px;
+    }
+
+    #hero-section .text-section{
+        width: 100%;
+    } 
+    
+    #hero-section .image-section {
+        width: 100%;
+    }
+
+    .contents {
+        width: 100%;
+    }
+
+    .footermain {
+        display: block;
+    }
+
+    
+    .left{
+        margin-inline: auto;
+    }
+
+    .brand{
+        width: 100%;
+    }
+
+    #hero .image-section{
+        width: 100%;
+    }
+    #hero .text-section{
+        width: 100%;
+    }
+
+
+    .img1234{
+        width: 100%;
+    }
+
+    .text h1{
+        padding: 18px;
+        font-size: 30px;
+        margin-inline: auto;
+    }
+
+    .diagnois .box1{
+        margin-inline: auto;
+    }
+
+    .right-sec{
+        display: none;
+    }
+    .number{
+        margin-inline: auto;
+        padding-top: 30px;
+    }
+    .line{
+        display: none;
+    }
+    .contact-background{
+        display: none;
+    }
+
+    .contact-background2{
+        display: none;
+    }
+    #quote-section .left-section .image-box img {
+        margin-inline: auto;
+    }
+    
 }
