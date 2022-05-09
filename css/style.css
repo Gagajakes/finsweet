@@ -509,7 +509,7 @@ input:focus{
     width: 50%;
 }
 
-.left h1{
+.get h3{
     font-size: 48px;
     color: white;
     padding-top: 30%;
@@ -884,7 +884,20 @@ input:focus{
     #diagnostics {
         width: 100%;
     }  
-    
+
+    .left{
+        width: 100%;
+
+    }
+    .get h3{
+        font-size: 25px;
+    }
+    .right{
+        width: 100%;
+    }
+    .wkicon{
+        display: flex !important;
+    }
 }
 
 
