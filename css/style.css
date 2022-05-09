@@ -179,9 +179,9 @@ input:focus{
 
 .background-white{
     color: #fff;
-    padding: 8% 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-
 .book_appointment{
     width: 49%;
     margin: 0 auto;
@@ -302,29 +302,29 @@ input:focus{
 .contact-background{
     background-image: url("../img/whitecar.jpg");
     background-size: cover;
-    background-position: center;
-    width: 50%;
-    height: 40vh;
+    /* background-position: center; */
+    width: 25%;
+    height: 60vh;
 }
 .contact-background2{
     background-image: url("../img/car\ charger.jpg");
     background-size: cover;
-    background-position: center;
-    width: 50%;
-    height: 40vh;
+    /* background-position: center; */
+    width: 40%;
+    height: 60vh;
 }
 .contact-box{
-    margin-left: 40%;
+    /* margin-left: 40%; */
     background-color: #FF6433;
-    height: 40vh;
-    width: 30vw;
+    height: 60vh;
+    width: 35%;
 }
 .box-text h4{
     padding-top: 65px;
     text-align: center;
     margin: auto;
     width: 80%;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
  .button{
@@ -381,6 +381,9 @@ input:focus{
     padding-bottom: 50px;
 
 }
+.review_coment1{
+    gap: 10%;
+}
 
 
 .review_coment h1{
@@ -393,7 +396,7 @@ input:focus{
     background: white;
     padding: 40px;
     display: flex;
-    width: 80%;
+    width: 60%;
 }
 
 .johnathan .jona{
@@ -413,8 +416,7 @@ input:focus{
     background: white;
     padding: 40px;
     display: flex;
-    width: 80%;
-    margin-left: 50px;
+    width: 60%;
 }
 
 .smitthy .johnson{
@@ -765,6 +767,13 @@ input:focus{
 
     h1, h2{
         font-size: 40px !important;
+        width: 100% !important;
+    }
+    .book_appointment{
+        width: 100%;
+    }
+    #quote-section .left-section .text-box{
+        width: 100%;
     }
 
     .left h1{
@@ -779,6 +788,10 @@ input:focus{
         width: 100%;
     }
 
+    .text-section .time-text {
+        width: 100%;
+    }
+
     .contents {
         width: 100%;
     }
@@ -787,15 +800,46 @@ input:focus{
         display: block;
     }
 
-    
+    .ratings{
+        margin-inline: auto;
+    }
+    .rating-amount{
+        margin-inline: auto;
+        font-size: 30px;
+    }
+    .johnathan{
+        width: 100%;
+    }
+    .smithhy{
+        width: 100%;
+    }
     .left{
         margin-inline: auto;
     }
-
-    .brand{
+    #offers{
         width: 100%;
     }
 
+    #contact-us{
+        width: 100%;
+    }
+    .contact-background{
+        width: 100%;
+        background-position: center;
+    }
+    .contact-background2{
+        width: 100%;
+    }
+    .contact-box{
+        width: 100%;
+        height: 40vh;
+    }
+    .brand{
+        width: 100%;
+    }
+    #brands{
+        width: 100%;
+    }
     #hero {
         width: 100%;
     }
@@ -832,22 +876,14 @@ input:focus{
     .line{
         display: none;
     }
-    .contact-background{
-        display: none;
-    }
 
-    .contact-background2{
-        display: none;
-    }
     #quote-section .left-section .image-box img {
         margin-inline: auto;
     }
 
     #diagnostics {
         width: 100%;
-    }
-
-   
+    }  
     
 }
 
@@ -916,13 +952,21 @@ input:focus{
     .line{
         display: none;
     }
+    #contact-us{
+        width: 100%;
+    }
     .contact-background{
-        display: none;
+        width: 100%;
+        background-position: center;
+    }
+    .contact-background2{
+        width: 100%;
+    }
+    .contact-box{
+        width: 100%;
+        height: 40vh;
     }
 
-    .contact-background2{
-        display: none;
-    }
     #quote-section .left-section .image-box img {
         margin-inline: auto;
     }
