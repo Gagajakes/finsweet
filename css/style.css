@@ -143,6 +143,9 @@ body{
     width: 100%;
 }
 
+.qt{
+    gap: 10px;
+}
 
 #quote-section .left-section .text-box {
     width: 50%;
@@ -831,8 +834,13 @@ input:focus{
         width: 100%;
     }
     .contact-box{
-        width: 100%;
+        /* width: 100%; */
         height: 40vh;
+    }
+    .box-text h4{
+        width: 100%;
+        font-size: 24px;
+        padding: 30px 15px 30px 15px;
     }
     .brand{
         width: 100%;
@@ -873,11 +881,38 @@ input:focus{
         margin-inline: auto;
         padding-top: 30px;
     }
+    .Quote h4{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Quote p{
+        color: #1E1B1B;
+        opacity: 0.6;
+        justify-content: center;
+        font-size: 15px;
+        
+    }
     .line{
         display: none;
     }
+    #quote-section .left-section{
+        width: 100%;
+    }
 
-    #quote-section .left-section .image-box img {
+    #quote-section .left-section .image-box {
+        width: 100%;
+        margin-inline: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    #quote-section .left-section{
+        justify-content: center;
+        text-align: center;
         margin-inline: auto;
     }
 
@@ -902,9 +937,18 @@ input:focus{
 
 
 @media only screen and (max-width: 900px) {
+    .main-header{
+        gap: 12%;
+    }
+    .image-section{
+        width: 100%;
+    }
+    .flex{
+        display: block;
+    }
 
     h1, h2{
-        font-size: 40px;
+        font-size: 40px !important;
     }
 
     .left h1{
@@ -940,6 +984,33 @@ input:focus{
         width: 100%;
     }
 
+    #quote-section .left-section .image-box {
+        width: 100%;
+        margin-inline: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    #quote-section .left-section{
+        justify-content: center;
+        text-align: center;
+        margin-inline: auto;
+    }
+    #quote-section .left-section .text-box h5{
+        font-size: 45px;
+        padding-top: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    #quote-section .left-section .text-box p{
+        font-size: 25px;
+        padding-top: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 100%;
+    }
 
     .img1234{
         width: 100%;
@@ -959,8 +1030,27 @@ input:focus{
         display: none;
     }
     .number{
-        margin-inline: auto;
         padding-top: 30px;
+        margin-inline: auto;
+    }
+    .listed_img{
+        width: 100%; 
+    }
+   
+    .Quote h4{
+        font-size: 23px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Quote p{
+        color: #1E1B1B;
+        opacity: 0.6;
+        justify-content: center;
+        text-align: center;
     }
     .line{
         display: none;
@@ -977,10 +1067,19 @@ input:focus{
     }
     .contact-box{
         width: 100%;
-        height: 40vh;
     }
-
+    .box-text h4{
+        width: 100%;
+    }
     #quote-section .left-section .image-box img {
         margin-inline: auto;
+    }
+    .ratings{
+        text-align: center;
+        justify-content: center;
+    }
+    .number{
+        text-align: center;
+        justify-content: center;
     }
 }
